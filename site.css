@@ -1,0 +1,114 @@
+html,body{
+    width: 100%;
+    overflow-x: hidden;
+    margin:0;
+    padding:0;
+}
+.center{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;	
+}
+.header{
+    background-color: #CCCCFF ;
+    width: 100%;
+    min-height: auto;
+    margin: 0%;
+    display: inline-block;
+    padding: 2px;
+}
+.body{
+    min-height: 580px;
+}
+img.main{
+    border-radius: 50%;
+    margin-left: 60px;
+    margin-top: 130px
+}
+img.left{
+    float:left;
+    margin-right:15px;
+    margin-bottom:10px;
+}  
+br.left{
+    clear:left;
+}
+img.right{
+    float:right;
+    margin-left:15px;
+    margin-bottom:10px;
+}
+ 
+br.right{
+    clear:right;
+}
+h1{
+    font-family: Montserrat; 
+    font-size: 50px;
+    color: #FFFFFF;
+    padding: 0;
+}
+p{
+   font-family: Montserrat; 
+   font-size: 16px;
+   margin-left: 60px;
+   margin-right: 60px;
+}
+
+ul.main{
+    font-family: Montserrat;
+    list-style-type: square;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+ul.nav {
+    font-family: Montserrat;
+    background-color: #CCCCFF;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    color:#ffffff;
+    width: 100%;
+    text-align: center;
+
+}
+li.nav {
+    display: inline-block;
+}
+a.nav:link{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+a.nav:visited{
+    color:white;
+}
+a.nav:hover{
+    color:#57068c ;
+}a.nav:active{
+    color:#57068c;
+}
+.footer{
+    background-color: #7979a3 ;
+    width: 100%;
+    padding: 10px;
+}
+ul.footerul {
+    font-family: Montserrat;
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    padding-bottom: 10px;
+    overflow: hidden;
+    color:#ffffff;
+    width: 100%;
+    text-align: center;
+
+}
+li.footerli {
+    display: inline-block;
+}
