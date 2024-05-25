@@ -1,0 +1,24 @@
+.education-section {
+    margin: 1.5rem;
+    padding: .75rem;
+    background-color: rgba(195, 205, 230, 0.5);
+    
+    #title {
+        font-size: 20pt;
+    }
+    
+    p {
+        font-size: 12pt;
+    }
+    
+    #nyu-logo {
+        padding-top: 0.2rem;
+        height: 5rem;
+        width: auto;
+    }
+
+    #education-bullets, #honors-bullets {
+        list-style-type: none;
+    }
+    
+}
