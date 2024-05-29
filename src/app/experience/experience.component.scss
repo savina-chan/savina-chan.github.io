@@ -1,0 +1,30 @@
+.experience-section {
+    margin: 1.5rem;
+    padding: .75rem;
+    background-color: rgba(195, 205, 230, 0.5);
+    
+    #title {
+        font-size: 20pt;
+    }
+    
+    p {
+        font-size: 12pt;
+    }
+    
+    #courant-logo {
+        padding-top: 0.2rem;
+        height: 4.8rem;
+        width: auto;
+    }
+
+    #mt-bank-logo{
+        padding-top: 0.2rem;
+        height: 4.0rem;
+        width: auto;
+    }
+
+    #experience-bullets {
+        list-style-type: none;
+    }
+    
+}
