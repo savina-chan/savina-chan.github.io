@@ -1,6 +1,6 @@
 # Savina's Online Portfolio
 
-This site hosts information about myself and was built as a side project to learn Angular whilst updating a monolithic version of my personal portfolio.
+This project is my personal website, built using Angular. It serves as a platform to showcase my background, portfolio, and experiences.
 
 ## Deploying the application
 
