@@ -51,3 +51,28 @@
     text-decoration: none;
     color: inherit;
 }
+
+.right li img {
+    width: 1.5rem;
+    height: auto;
+}
+
+.resume-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.resume-icon {
+    filter: grayscale(100%);
+    transition: filter 0.3s ease;
+}
+
+.resume-wrapper:hover .resume-icon {
+    filter: none;
+}
+
+.resume-wrapper:hover{
+    img {
+        color: #A8C3F7;
+    }
+ }
