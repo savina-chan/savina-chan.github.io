@@ -7,7 +7,8 @@ import {MatCardModule} from '@angular/material/card';
 import { SmoothScrollDirective } from './smooth-scroll.directive';
 import { HomeComponent } from './home/home.component';
 import { HeaderComponent } from './header/header.component';
-import { FooterComponent } from './footer/footer.component'
+import { FooterComponent } from './footer/footer.component';
+import { ExperienceComponent } from './experience/experience.component'
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { FooterComponent } from './footer/footer.component'
     SmoothScrollDirective,
     HomeComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    ExperienceComponent
   ],
   imports: [
     BrowserModule,
