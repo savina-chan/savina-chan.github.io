@@ -1,0 +1,34 @@
+.navbar {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: start;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.left ul, .right ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.left li {
+    margin: 0.5rem 0;
+    text-align: right;
+}
+
+.right li {
+    margin: 0.5rem 0;
+    cursor: pointer;
+    text-align: right;
+}
+

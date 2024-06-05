@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'Quicksand';
+    src: url('assets/font/Quicksand/static/Quicksand-Regular.ttf');
+}
+
+body {
+    font-family: 'Quicksand';
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: #FDFDFC;
+}
+
+@media (max-width: 768px) {
+    body {
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-top: 2rem;
+    }
+    
+}
+
+@media (max-width: 480px) {
+    body {
+        margin-left: 1rem;
+        margin-right:1rem;
+        margin-top: 1rem;
+    }
+}

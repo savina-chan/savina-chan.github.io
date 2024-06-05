@@ -5,13 +5,15 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatCardModule} from '@angular/material/card';
 import { SmoothScrollDirective } from './smooth-scroll.directive';
-import { HomeComponent } from './home/home.component'
+import { HomeComponent } from './home/home.component';
+import { HeaderComponent } from './header/header.component'
 
 @NgModule({
   declarations: [
     AppComponent,
     SmoothScrollDirective,
-    HomeComponent
+    HomeComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
