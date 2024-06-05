@@ -1,3 +1,5 @@
 <footer>
-    <a  *ngFor = "let link of links" href={{link.href}} title = {{link.title}}><img src={{link.icon}}></a>
-</footer>
+    <a *ngFor="let link of links" href="{{link.href}}" title="{{link.title}}" class="icon-link">
+      <img src="{{link.icon}}" alt="{{link.title}}">
+    </a>
+  </footer>
