@@ -8,7 +8,9 @@ import { SmoothScrollDirective } from './smooth-scroll.directive';
 import { HomeComponent } from './home/home.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
-import { ExperienceComponent } from './experience/experience.component'
+import { ExperienceComponent } from './experience/experience.component';
+import { WorkComponent } from './work/work.component';
+import { ProjectsComponent } from './projects/projects.component'
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { ExperienceComponent } from './experience/experience.component'
     HomeComponent,
     HeaderComponent,
     FooterComponent,
-    ExperienceComponent
+    ExperienceComponent,
+    WorkComponent,
+    ProjectsComponent
   ],
   imports: [
     BrowserModule,
