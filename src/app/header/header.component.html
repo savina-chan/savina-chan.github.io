@@ -1,14 +1,14 @@
 <div class="navbar">
     <div class="left">
         <ul>
-            <li>savina chan</li>
+            <li class="name">savina chan</li>
         </ul>
     </div>
 
     <div class="right">
         <ul>
-            <li routerLink="/">about</li>
-            <li>experience</li>
+            <li routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">about</li>
+            <li routerLink="/experience" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">experience</li>
             <li>contact</li>
             <li>resume</li>
         </ul>

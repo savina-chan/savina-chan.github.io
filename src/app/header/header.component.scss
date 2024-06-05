@@ -9,6 +9,10 @@
     align-items: center;
 }
 
+.name {
+    color: #A8C3F7
+}
+
 .right {
     display: flex;
     flex-direction: column;
@@ -31,5 +35,14 @@
     margin: 0.5rem 0;
     cursor: pointer;
     text-align: right;
-    font-size: small;
+    font-size: medium;
+}
+
+.active {
+    color: #A8C3F7;
+}
+
+.right li:hover {
+    text-decoration: underline;
+    text-decoration-color: #A8C3F7;
 }
