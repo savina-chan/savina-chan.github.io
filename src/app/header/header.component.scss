@@ -10,7 +10,22 @@
 }
 
 .name {
-    color: #A8C3F7
+    color: #A8C3F7;
+    font-size: xx-large;
+    display: flex;
+    align-items: center;
+}
+
+.flower1 {
+    font-size: small;
+    margin-top: 0.4rem;
+    margin-right: 0.2rem;
+}
+
+.flower2 {
+    font-size: small;
+    margin-top: 0.4rem;
+    margin-left: 0.2rem;
 }
 
 .right {
@@ -28,7 +43,6 @@
 .left li {
     margin: 0.5rem 0;
     text-align: right;
-    font-size: xx-large;
 }
 
 .right li {
@@ -75,4 +89,4 @@
     img {
         color: #A8C3F7;
     }
- }
+}
